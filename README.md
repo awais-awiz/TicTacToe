@@ -17,38 +17,18 @@ Play against your friend in 2-player mode or challenge a smart AI opponent power
 
 ## 🛠 Features
 - 🎯 **Two Game Modes** — Player vs Player and Player vs AI.
-- 🤖 **AI Mode** — Uses the Minimax algorithm for unbeatable gameplay.
+- 🤖 **AI Mode** — Implements Minimax with alpha-beta pruning for optimal decision making and unbeatable gameplay.
 - 📊 **Score Tracking** — Keeps track of wins, losses, and draws.
 - 🖌 **Responsive Design** — Optimized for mobile, tablet, and desktop.
 - ✨ **Smooth UI** — Clean animations and clear visual feedback for game states.
 
 ---
 
-## 🧠 How It Works
-- **AI Logic** — Implements Minimax with alpha-beta pruning for optimal decision making.
-- **Game Flow** — React hooks (`useState`, `useEffect`) manage turns, scores, and winner detection.
-- **Winning Detection** — Checks all possible winning combinations after each move.
-
----
-
-## 📂 Project Structure
-```
-TicTacToe/
-│
-├── src/
-│   ├── Components/
-│   │   ├── Game.jsx
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   ├── App.jsx
-│   ├── index.js
-│
-├── public/
-│   ├── index.html
-│
-├── package.json
-└── README.md
-```
+## 🖥 Technologies Used
+- **React.js** — Frontend framework
+- **JavaScript (ES6)** — Game logic
+- **CSS3** — Styling
+- **Netlify** — Hosting
 
 ---
 
@@ -70,31 +50,7 @@ npm install
 npm start
 ```
 
-### 4️⃣ Build for production
-```bash
-npm run build
-```
-
 ---
 
-## 🖥 Technologies Used
-- **React.js** — Frontend framework
-- **JavaScript (ES6)** — Game logic
-- **CSS3** — Styling
-- **Netlify** — Hosting
 
----
 
-## 📜 License
-This project is licensed under the **MIT License** — you’re free to use, modify, and distribute it.
-
----
-
-## 💌 Author
-**Awais** — [GitHub](https://github.com/awais-awiz)  
-Made with 💜 for fun and learning.
-
----
-
-## 🌟 Support
-If you like this project, please ⭐ it on [GitHub](https://github.com/your-username/tictactoe) and share it with friends!
