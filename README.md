@@ -10,8 +10,11 @@ Play against your friend in 2-player mode or challenge a smart AI opponent power
 
 ---
 
-## 📸 Preview
-![Game Screenshot](https://via.placeholder.com/800x400.png?text=Tic+Tac+Toe+Game+Preview)
+## 🖥️ Screenshots
+
+| Desktop | Mobile |
+|--------|--------|
+| ![Desktop View](./public/Desktop.png) | ![Mobile View](./public/Mobile.png) |
 
 ---
 
