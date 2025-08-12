@@ -1,0 +1,55 @@
+.navbar {
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+      font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .navbar-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #8E6DF7;
+  }
+  
+  .navbar-links a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    position: relative;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #8E6DF7;
+  }
+  
+  .navbar-links a::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #8E6DF7;
+    transition: width 0.3s;
+  }
+  
+  .navbar-links a:hover::after {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+  @media (max-height:630px)
+  {
+    .navbar-title{font-size: 1.2rem ;}
+  }
