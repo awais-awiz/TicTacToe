@@ -1,10 +1,7 @@
 # 🎯 Tic Tac Toe Game (React)
 
-![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)  
-![License](https://img.shields.io/badge/License-MIT-green)  
-![Stars](https://img.shields.io/github/stars/awais-awiz/tictactoe?style=social)  
-![Forks](https://img.shields.io/github/forks/awais-awiz/tictactoe?style=social)  
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen)](https://your-demo-link.com)
+
+[![Live Demo](https://bucolic-muffin-b58c52.netlify.app/)
 
 A fun, responsive, and interactive **Tic Tac Toe** game built with **React**.  
 Play **Player vs Player** or challenge an **unbeatable AI** powered by the Minimax algorithm with Alpha-Beta pruning.
@@ -37,5 +34,14 @@ Play **Player vs Player** or challenge an **unbeatable AI** powered by the Minim
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/awais-awiz/tictactoe.git
+git clone https://github.com/awais-awiz/TicTacToe.git
 cd tictactoe
+```
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
+3️⃣ Start the App
+```bash
+npm start
+
